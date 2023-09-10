@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController("/list")
 public class ListController {
-    @GetMapping("/farming-holiday")
+    @GetMapping("api//farming-holiday")
     public List<BlockFarmingHolidayDto> getFarmingHolidayList(){
         List<BlockFarmingHolidayDto> farmingHolidays = new ArrayList<>();
         return farmingHolidays;

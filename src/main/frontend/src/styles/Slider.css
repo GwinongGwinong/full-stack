@@ -1,0 +1,13 @@
+.slick-track{
+    height:444px;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+.slick-dots ul li button::before{ /* dot 배경색 */
+    color: white;
+}
+
+.slick-dots ul li.slick-active button::before{ /* dot 배경색 */
+    color: white;
+}

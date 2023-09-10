@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class SignInController {
-    @PostMapping("/sign-in")
+    @PostMapping("api/sign-in")
     public ResponseEntity checkValidSignIn(@RequestBody SignInDto loginDto){
         //TODO: 유효한 아이디, 비밀번호인지 체크하는 로직 필요
         return ResponseEntity.ok().build();

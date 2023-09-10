@@ -1,0 +1,23 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+}
+
+.buttonYes{
+    background-color: var(--color-green);
+    color:var(--color-white);
+    border: 0;
+    border-radius: 8px;
+}
+.buttonNo{
+    background-color: var(--color-red);
+    color:var(--color-white);
+    border: 0;
+    border-radius: 8px;
+}

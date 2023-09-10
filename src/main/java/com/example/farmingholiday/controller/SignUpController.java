@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class SignUpController {
-    @PostMapping("/sign-up")
+    @PostMapping("api/sign-up")
     public ResponseEntity checkValidSignUp(@RequestBody UserDto signUpDto){ // 회원가입 입력 정보가 곧 사용자 정보
         //TODO: 중복되는 아이디 없는지 체크
         return ResponseEntity.ok().build();

@@ -1,0 +1,39 @@
+.imgSlide{
+    margin: auto;
+}
+
+.slideText{
+    width: 23%;
+    word-break: keep-all;
+
+    position: absolute;
+    top: 13%; /* Adjust this value to vertically center the text */
+    left: 15%; /* Adjust this value to horizontally center the text */
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 5px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.intro{
+    width: 29%;
+    word-break: keep-all;
+
+    position: absolute;
+    top: 38%; /* Adjust this value to vertically center the text */
+    left: 18.5%; /* Adjust this value to horizontally center the text */
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 5px;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 169.023%; /* 27.044px */
+}

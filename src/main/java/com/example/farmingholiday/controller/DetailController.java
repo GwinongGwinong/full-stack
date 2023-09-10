@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DetailController {
-    @GetMapping("farming-holiday/detailed-info/{id}")
+    @GetMapping("api/farming-holiday/detailed-info/{id}")
     public DetailPageDto getDetailedInfo(@PathVariable String id){
         return DetailPageDto.builder().build();
     }
